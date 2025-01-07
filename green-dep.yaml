@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app-green
+  name: green-deployment
   labels:
     app: my-app
     version: green
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: my-app
@@ -18,7 +18,7 @@ spec:
         version: green
     spec:
       containers:
-        - name: app-container
-          image: my-app:green
-          ports:
-            - containerPort: 80
+      - name: nginx-green
+        image: nginx:1.25.2 # Updated version of the public Docker image
+        ports:
+        - containerPort: 80
