@@ -1,12 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bankapp-service
+  name: my-app-service
 spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-    targetPort: 8080
   selector:
-    app: bankapp
-    version: blue # This can be changed to "green" when switching traffic
+    app: my-app
+    version: green  # Initially pointing to the Green deployment
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
