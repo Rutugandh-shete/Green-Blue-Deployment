@@ -161,11 +161,9 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6IkQ5Snl2a2VUSUtxUk10NE10ajlXYmZ5dlJjcm1EQXF3bUY4R2k4
 ### Kubernetes Namespace Creation
 ![Kubernetes Namespace Creation](https://tse1.mm.bing.net/th?id=OIP.VXnkCHS76XEKhCSR9nX87QHaD2&pid=Api)
 
-### Kubernetes Service Account Setup
-![Kubernetes Service Account Setup](https://tse1.mm.bing.net/th?id=OIP.xNpwMEmqm94R3wByXI3qHAAAAA&pid=Api)
+### AWS EKS Cluster
+![AWS EKS Cluster](https://tse1.mm.bing.net/th?id=OIP.aEUXq2WUJwXoVvbrxYgLHgHaEo&pid=Api)
 
-### Kubernetes RBAC Role and RoleBinding
-![Kubernetes RBAC Role and RoleBinding](https://tse1.mm.bing.net/th?id=OIP.PaEz8SASsqO043XWecKr6wHaEb&pid=Api)
 
 ---
 
