@@ -142,7 +142,7 @@ kubectl apply -f token.yaml
 
 Retrieve the token:
 ```bash
-kubectl get secret mysecretname -o jsonpath="{.data.token}" | base64 --decode
+kubectl get secret mysecretname -n webapps
 ```
 Save the token for later use in Jenkins.
 
