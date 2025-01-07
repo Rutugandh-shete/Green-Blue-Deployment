@@ -160,9 +160,8 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6IkQ5Snl2a2VUSUtxUk10NE10ajlXYmZ5dlJjcm1EQXF3bUY4R2k4
 ## Images
 ### Kubernetes Namespace Creation
 ![Kubernetes Namespace Creation](https://tse1.mm.bing.net/th?id=OIP.VXnkCHS76XEKhCSR9nX87QHaD2&pid=Api)
-
-### AWS EKS Cluster
-![AWS EKS Cluster](https://tse1.mm.bing.net/th?id=OIP.aEUXq2WUJwXoVvbrxYgLHgHaEo&pid=Api)
+### RBAC
+![image](https://github.com/user-attachments/assets/b2bfe675-d47d-4452-8921-3a8bda3d0aff)
 
 
 ---
