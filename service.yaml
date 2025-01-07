@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: my-app
-    version: green  # Initially pointing to the Green deployment
+    version: blue
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: LoadBalancer
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: NodePort
